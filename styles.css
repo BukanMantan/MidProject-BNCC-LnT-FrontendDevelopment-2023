@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6f7ff;
+}
+
+nav {
+  background-color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  margin: 5px 0;
+}
+
+.aboutbncc {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.rounded-img {
+  border-radius: 10px;
+}
